@@ -119,7 +119,7 @@ class CI_DB_sqlsrv_driver extends CI_DB {
 	 * @param	bool	$pooling
 	 * @return	resource
 	 */
-	public function db_connect($pooling = FALSE)
+	public function sqlsrv_connect($pooling = FALSE)
 	{
 		$charset = in_array(strtolower($this->char_set), array('utf-8', 'utf8'), TRUE)
 			? 'UTF-8' : SQLSRV_ENC_CHAR;
