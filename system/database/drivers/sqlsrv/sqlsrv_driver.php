@@ -161,7 +161,7 @@ class CI_DB_sqlsrv_driver extends CI_DB {
 	 * @param	string	$database
 	 * @return	bool
 	 */
-	public function db_select($database = '')
+	public function sqlsrv_select($database = '')
 	{
 		if ($database === '')
 		{
